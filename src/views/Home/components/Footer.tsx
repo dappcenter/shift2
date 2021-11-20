@@ -22,9 +22,9 @@ const Footre = () => {
   return (
     <Wrapper justifyContent="space-between" alignItems="center" mb="92px">
       <Image src={oz} alt=" " width={224} height={224} />      
-      <Image src={qu} alt=" " width={124} height={124} />      
-      <Image src={im} alt=" " width={124} height={124} />      
-      <Image src={peck} alt=" " width={124} height={124} />      
+      <Image src={qu} alt=" " width={223} height={223} />      
+      <Image src={im} alt=" " width={223} height={223} />      
+      <Image src={peck} alt=" " width={223} height={223} />      
      
     </Wrapper>
   )
