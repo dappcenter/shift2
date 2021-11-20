@@ -26,7 +26,7 @@ const GlobalStyle = createGlobalStyle`
       height: auto;
       max-width: 100%;
       h1 {
-        color: #ff1100;
+        color: #2424b1;
         
       }
     }

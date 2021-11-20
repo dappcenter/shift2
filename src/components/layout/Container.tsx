@@ -7,7 +7,7 @@ const Container = styled.div`
   padding-left: 16px;
   padding-right: 16px;
   h1 { 
-    color: #ff1100;
+    color: #2424b1;
     
   }
 

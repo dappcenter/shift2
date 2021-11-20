@@ -34,7 +34,7 @@ const Row = styled.div`
   justify-content: left;
   margin-bottom: 10px;
   margin-top: 10px;
-  color: #FF1100;
+  color: #2424b1;
   text-align: center;
 
 `
