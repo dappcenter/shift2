@@ -38,13 +38,13 @@ const config: MenuEntry[] = [
   {
     label: 'vFat Shell',
     icon: 'MoonIcon',
-    href: '/shell',
+    href: '/',
   },
 
   {
     label: 'Docs',
     icon: 'InfoIcon',
-    href: 'https://questionmarkfinance.gitbook.io/question-mark-finance/'
+    href: '/'
   },
   // {
   //   label: 'Teams & Profile',
