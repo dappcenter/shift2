@@ -21,17 +21,17 @@ const Hero = styled.div`
   justify-content: center;
   flex-direction: column;
   margin: auto;
-  margin-bottom: 200px;
-  padding-top: 200px;
+  margin-bottom:  10em;
+  padding-top: 100px;
   text-align: center;
 
   ${({ theme }) => theme.mediaQueries.lg} {
 
     background-position: left center, right center;
-    height: 200px;
+    // height: 200px;
     background-color: #ffffff
-    padding-top: 200;
-    padding-bottom 400;
+    padding-top: 100;
+    padding-bottom 200;
 
 
 
@@ -93,7 +93,8 @@ return (
 <Front>
     <Hero />
  
-   
+   <Hero />
+
     
       <Cards>
       <TwitterCard />
@@ -105,6 +106,8 @@ return (
         <TotalValueLockedCard />
  
       </Cards>
+      <Hero />
+
       <Footer/>
  </Front>
 

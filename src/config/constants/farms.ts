@@ -49,8 +49,24 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wbnb,
   },
   {
-    pid: 3,
+    pid: 6,
     lpSymbol: 'SHIFT-USDC LP',
+    lpAddresses: {
+      97: '',
+      56: '0xf14e0535d086d5899E3F7F471fA70Ed1201d4d4d',   // lp address token-bnb
+    },
+    tokenSymbol: 'SHIFT',
+    tokenAddresses: {
+      97: '',
+      56: '0x471EEE143DA5eE93bF27960157d7868bED0736a9', // token address
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  }
+,
+  {
+    pid: 3,
+    lpSymbol: 'SHIFT-DAI LP',
     lpAddresses: {
       97: '',
       56: '0xf14e0535d086d5899E3F7F471fA70Ed1201d4d4d',   // lp address token-bnb

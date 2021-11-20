@@ -15,8 +15,9 @@ const StyledTwitterCard = styled(Card)`
   margin-right: auto;
   // box-shadow: 0px 4px 18px rgba(50, 113, 165, 0.42);
   border-radius: 12px;
-  margin-top: -200px;
+  margin-top: -440px;
   margin-bottom: 100px;
+  padding-bottom: 10em;
   
   color: gray;
 

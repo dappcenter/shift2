@@ -6,13 +6,14 @@ const Front = styled.div`
   margin-left: auto;
   margin-right: auto;
   background-image: url(${img});
-  max-width: 1920px;
+width: 80%;
+
+
 // width: 100vw;
 background-repeat: no-repeat;
-background-size: cover;
+background-size: 100%;
+margin-bottom: 400px;
 
-  // padding-left: 16px;
-  // padding-right: 16px;
   h1 { 
     color: white;
 

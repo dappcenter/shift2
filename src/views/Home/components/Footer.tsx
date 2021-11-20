@@ -20,7 +20,7 @@ const MultiplierTag = styled(Tag)`
 
 const Footre = () => {
   return (
-    <Wrapper justifyContent="space-between" alignItems="center" mb="92px">
+    <Wrapper justifyContent="space-between" alignItems="center" mb="22px">
       <Image src={oz} alt=" " width={224} height={224} />      
       <Image src={qu} alt=" " width={223} height={223} />      
       <Image src={im} alt=" " width={223} height={223} />      
