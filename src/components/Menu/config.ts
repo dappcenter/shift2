@@ -1,34 +1,35 @@
-import { MenuEntry } from '@pancakeswap-libs/uikit'
+import { MenuEntry } from "@pancakeswap-libs/uikit";
 
 const config: MenuEntry[] = [
   {
-    label: 'Home',
-    icon: 'HomeIcon',
-    href: '/',
+    label: "Home",
+    icon: "HomeIcon",
+    href: "/",
   },
   {
-    label: 'Trade',
-    icon: 'TradeIcon',
+    label: "Trade",
+    icon: "TradeIcon",
     items: [
       {
-        label: 'Exchange',
-        href: 'https://pancakeswap.finance/swap',
+        label: "Exchange",
+        href: "https://pancakeswap.finance/swap",
       },
       {
-        label: 'Liquidity',
-        href: 'https://pancakeswap.finance/add/BNB/0x471EEE143DA5eE93bF27960157d7868bED0736a9',
+        label: "Liquidity",
+        href:
+          "https://pancakeswap.finance/add/BNB/0x471EEE143DA5eE93bF27960157d7868bED0736a9",
       },
     ],
   },
   {
-    label: 'Farms',
-    icon: 'FarmIcon',
-    href: '/farms',
+    label: "Farms",
+    icon: "FarmIcon",
+    href: "/farms",
   },
   {
-    label: 'Pools',
-    icon: 'PoolIcon',
-    href: '/pools',
+    label: "Pools",
+    icon: "PoolIcon",
+    href: "/pools",
   },
   // {
   //   label: 'Lottery',
@@ -36,15 +37,15 @@ const config: MenuEntry[] = [
   //   href: '/lottery',
   // },
   {
-    label: 'vFat Shell',
-    icon: 'MoonIcon',
-    href: '/',
+    label: "vFat Shell",
+    icon: "MoonIcon",
+    href: "/",
   },
 
   {
-    label: 'Docs',
-    icon: 'InfoIcon',
-    href: '/'
+    label: "Docs",
+    icon: "InfoIcon",
+    href: "/",
   },
   // {
   //   label: 'Teams & Profile',
@@ -114,6 +115,6 @@ const config: MenuEntry[] = [
   //     // },
   //   ],
   // },
-]
+];
 
-export default config
+export default config;
