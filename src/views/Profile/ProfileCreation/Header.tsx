@@ -23,7 +23,7 @@ const Header: React.FC = () => {
 
   return (
     <Wrapper>
-      <Heading as="h1" size="xxl" color="secondary" mb="8px">
+      <Heading as="h1" size="xxl" color="white" mb="8px">
         {TranslateString(770, 'Profile Setup')}
       </Heading>
       <Heading as="h2" size="lg" mb="8px">

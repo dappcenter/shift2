@@ -21,7 +21,7 @@ const ProfileHeader = () => {
         justifyContent="space-between"
       >
         <div>
-          <Heading as="h1" size="xxl" mb="8px" color="secondary">
+          <Heading as="h1" size="xxl" mb="8px" color="white">
             {TranslateString(999, 'Your Profile')}
           </Heading>
           <Heading as="h2" size="lg" mb="16px">
