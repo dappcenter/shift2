@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 const Container = styled.div`
   margin-left: auto;
@@ -6,14 +6,15 @@ const Container = styled.div`
   max-width: 1600px;
   padding-left: 16px;
   padding-right: 16px;
-  h1 {
+  h1 { 
     color: #2424b1;
+    
   }
 
   ${({ theme }) => theme.mediaQueries.sm} {
     padding-left: 24px;
     padding-right: 24px;
   }
-`;
+`
 
-export default Container;
+export default Container

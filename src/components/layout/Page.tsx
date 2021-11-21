@@ -1,11 +1,12 @@
-import styled from "styled-components";
-import Container from "./Container";
+import styled from 'styled-components'
+import Container from './Container'
 
 const Page = styled(Container)`
   min-height: calc(100vh - 64px);
   padding-top: 16px;
   padding-bottom: 16px;
-  color: #ffffff;
+  color: #FFFFFF;
+
 
   ${({ theme }) => theme.mediaQueries.sm} {
     padding-top: 24px;
@@ -16,6 +17,6 @@ const Page = styled(Container)`
     padding-top: 32px;
     padding-bottom: 32px;
   }
-`;
+`
 
-export default Page;
+export default Page
