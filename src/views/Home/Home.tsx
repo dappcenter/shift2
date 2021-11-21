@@ -29,7 +29,7 @@ const Hero = styled.div`
 
     background-position: left center, right center;
     // height: 200px;
-    background-color: #ffffff
+    background-color: #000000;
     padding-top: 100;
     padding-bottom 200;
 

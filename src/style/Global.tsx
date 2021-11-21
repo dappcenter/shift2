@@ -15,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
 
  home {
 
-    background: #ffffff !important;
+    background: #000000 !important;
 
   }
   body {
@@ -27,8 +27,10 @@ const GlobalStyle = createGlobalStyle`
       max-width: 100%;
       h1 {
         color: #2424b1;
-        
       }
+      h2 {
+        color: #ffffff;
+
     }
   }
 `
